@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glowing - Girls' Shoes</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-pink-50 text-gray-800 font-sans">
+  <!-- Header -->
+  <header class="bg-white shadow-md p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-pink-500">Glowing</h1>
+    <nav>
+      <ul class="flex gap-6 text-gray-700 font-medium">
+        <li><a href="#" class="hover:text-pink-500">Home</a></li>
+        <li><a href="#" class="hover:text-pink-500">Shop</a></li>
+        <li><a href="#" class="hover:text-pink-500">Trending</a></li>
+        <li><a href="#" class="hover:text-pink-500">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative bg-gradient-to-r from-pink-100 to-lavender-100 p-10 flex flex-col items-center text-center">
+    <img src="https://source.unsplash.com/featured/?girl,shoes" alt="Smiling girl wearing trendy shoes" class="rounded-2xl shadow-lg w-full max-h-[400px] object-cover mb-6">
+    <h2 class="text-4xl font-bold text-pink-600 mb-4">Step Into Style</h2>
+    <button class="bg-pink-500 text-white px-6 py-3 rounded-full shadow hover:bg-pink-600">Shop Now</button>
+  </section>
+
+  <!-- Product Grid -->
+  <section class="p-10">
+    <h3 class="text-2xl font-bold text-center text-pink-600 mb-8">Our Collection</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Product Card -->
+      <div class="bg-white rounded-2xl shadow p-4 text-center">
+        <img src="https://source.unsplash.com/300x300/?girls-sneakers" alt="Sneakers" class="rounded-xl mb-4 w-full h-48 object-cover">
+        <h4 class="font-semibold">Trendy Sneakers</h4>
+        <p class="text-pink-500 font-bold">$39.99</p>
+        <button class="mt-3 bg-pink-500 text-white px-4 py-2 rounded-full hover:bg-pink-600">Add to Cart</button>
+      </div>
+      <div class="bg-white rounded-2xl shadow p-4 text-center">
+        <img src="https://source.unsplash.com/300x300/?girls-sandals" alt="Sandals" class="rounded-xl mb-4 w-full h-48 object-cover">
+        <h4 class="font-semibold">Cute Sandals</h4>
+        <p class="text-pink-500 font-bold">$29.99</p>
+        <button class="mt-3 bg-pink-500 text-white px-4 py-2 rounded-full hover:bg-pink-600">Add to Cart</button>
+      </div>
+      <div class="bg-white rounded-2xl shadow p-4 text-center">
+        <img src="https://source.unsplash.com/300x300/?girls-flats" alt="Ballet Flats" class="rounded-xl mb-4 w-full h-48 object-cover">
+        <h4 class="font-semibold">Ballet Flats</h4>
+        <p class="text-pink-500 font-bold">$34.99</p>
+        <button class="mt-3 bg-pink-500 text-white px-4 py-2 rounded-full hover:bg-pink-600">Add to Cart</button>
+      </div>
+      <div class="bg-white rounded-2xl shadow p-4 text-center">
+        <img src="https://source.unsplash.com/300x300/?girls-boots" alt="Boots" class="rounded-xl mb-4 w-full h-48 object-cover">
+        <h4 class="font-semibold">Stylish Boots</h4>
+        <p class="text-pink-500 font-bold">$49.99</p>
+        <button class="mt-3 bg-pink-500 text-white px-4 py-2 rounded-full hover:bg-pink-600">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trending Section -->
+  <section class="bg-lavender-50 p-10">
+    <h3 class="text-2xl font-bold text-center text-pink-600 mb-8">Trending Now</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <img src="https://source.unsplash.com/400x400/?kids-shoes" alt="Trending Shoe" class="rounded-2xl shadow">
+      <img src="https://source.unsplash.com/400x400/?fashion-shoes" alt="Trending Shoe" class="rounded-2xl shadow">
+      <img src="https://source.unsplash.com/400x400/?girl-shoes" alt="Trending Shoe" class="rounded-2xl shadow">
+    </div>
+  </section>
+
+  <!-- Customer Reviews -->
+  <section class="p-10">
+    <h3 class="text-2xl font-bold text-center text-pink-600 mb-8">Customer Reviews</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <p class="italic mb-4">“My daughter loves her new sneakers! Super comfy and cute.”</p>
+        <div class="flex items-center gap-3">
+          <img src="https://randomuser.me/api/portraits/women/32.jpg" class="w-10 h-10 rounded-full" />
+          <span class="font-semibold">Anita R.</span>
+        </div>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <p class="italic mb-4">“Perfect sandals for summer. Great quality at a good price.”</p>
+        <div class="flex items-center gap-3">
+          <img src="https://randomuser.me/api/portraits/women/45.jpg" class="w-10 h-10 rounded-full" />
+          <span class="font-semibold">Meera S.</span>
+        </div>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <p class="italic mb-4">“The boots are so stylish, my little one wears them everywhere.”</p>
+        <div class="flex items-center gap-3">
+          <img src="https://randomuser.me/api/portraits/women/68.jpg" class="w-10 h-10 rounded-full" />
+          <span class="font-semibold">Pooja K.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Signup -->
+  <section class="bg-mint-100 p-10 text-center rounded-2xl mx-6 mb-10">
+    <h3 class="text-2xl font-bold text-pink-600 mb-4">Stay Updated</h3>
+    <p class="mb-6">Get the latest styles in your inbox!</p>
+    <form class="flex flex-col sm:flex-row justify-center gap-4 max-w-xl mx-auto">
+      <input type="email" placeholder="Enter your email" class="flex-1 p-3 rounded-full border border-gray-300 focus:outline-pink-400">
+      <button class="bg-pink-500 text-white px-6 py-3 rounded-full hover:bg-pink-600">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white text-center p-6 border-t text-gray-600">
+    <p>© 2025 Glowing. All rights reserved.</p>
+  </footer>
+</body>
+</html>
